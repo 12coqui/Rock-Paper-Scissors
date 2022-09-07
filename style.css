@@ -1,0 +1,71 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 119, .4);
+}
+
+h1{
+    margin-top: 3rem;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center
+}
+
+.selection{
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background: none;
+    font-size: 3.5rem;
+    padding: .5rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.selection:hover{
+    transform: scale(1.2);
+}
+
+.score{
+}
+
+.modal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+    min-height: auto;
+    align-content: center;
+    justify-content: center;
+    transition: 1000ms;
+    font-size: 1.75rem;
+    padding: 1.5rem;
+}
+
+.computer, .player{
+    margin-bottom: 3rem;
+}
+
+.result {
+    border: none;
+    outline: none;
+    opacity: .5;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.winner{
+    font-size: 3rem;
+    opacity: 1;
+}

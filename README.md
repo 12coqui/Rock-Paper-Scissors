@@ -1,1 +1,2 @@
-# Rock-Paper-Scissors
+# rockPaperScissors
+game app JS
